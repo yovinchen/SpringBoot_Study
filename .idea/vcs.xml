@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="VcsDirectoryMappings">
-    <mapping directory="$PROJECT_DIR$" vcs="Git" />
+    <mapping directory="" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/springboot_01_01_quickstart" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/springboot_02_base_configuration" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/springboot_03_yaml" vcs="Git" />
   </component>
 </project>

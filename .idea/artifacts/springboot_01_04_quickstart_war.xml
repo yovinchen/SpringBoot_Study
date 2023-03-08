@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="springboot_01_04_quickstart:war">
+    <output-path>$PROJECT_DIR$/springboot_01_04_quickstart/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>springboot_01_04_quickstart</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="springboot_01_04_quickstart.war">
+      <element id="artifact" artifact-name="springboot_01_04_quickstart:war exploded" />
+    </root>
+  </artifact>
+</component>

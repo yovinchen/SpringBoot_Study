@@ -2,7 +2,13 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/SpringBoot_Study.iml" filepath="$PROJECT_DIR$/SpringBoot_Study.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot_01_01_quickstart/src/main/main.iml" filepath="$PROJECT_DIR$/springboot_01_01_quickstart/src/main/main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot_01_01_quickstart/springboot_01_01_quickstart.iml" filepath="$PROJECT_DIR$/springboot_01_01_quickstart/springboot_01_01_quickstart.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot_01_02_quickstart/springboot_01_02_quickstart.iml" filepath="$PROJECT_DIR$/springboot_01_02_quickstart/springboot_01_02_quickstart.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot_01_03_quickstart/springboot_01_03_quickstart.iml" filepath="$PROJECT_DIR$/springboot_01_03_quickstart/springboot_01_03_quickstart.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot_01_04_quickstart/springboot_01_04_quickstart.iml" filepath="$PROJECT_DIR$/springboot_01_04_quickstart/springboot_01_04_quickstart.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot_02_base_configuration/springboot_02_base_configuration.iml" filepath="$PROJECT_DIR$/springboot_02_base_configuration/springboot_02_base_configuration.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot_03_yaml/springboot_03_yaml.iml" filepath="$PROJECT_DIR$/springboot_03_yaml/springboot_03_yaml.iml" />
     </modules>
   </component>
 </project>
