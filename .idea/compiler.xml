@@ -10,8 +10,8 @@
         <module name="springboot_01_02_quickstart" />
         <module name="springboot_01_04_quickstart" />
         <module name="springboot_04_junit" />
-        <module name="springboot_03_yaml" />
         <module name="springboot_05_mybatis" />
+        <module name="springboot_03_yaml" />
         <module name="springboot_01_01_quickstart" />
         <module name="demo" />
         <module name="springboot_02_base_configuration" />
