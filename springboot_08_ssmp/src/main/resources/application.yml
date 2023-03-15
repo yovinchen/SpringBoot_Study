@@ -1,16 +1,19 @@
-# 配置相关配置
-#spring:
-#  datasource:
-#    driver-class-name: com.mysql.jdbc.Driver
-#    url: jdbc:mysql://localhost:3306/ssm_db?useSSL=false
-#    username: root
-#    password: 8520
-#    type: com.alibaba.druid.pool.DruidDataSource
-
+#数据库配置
 spring:
   datasource:
     druid:
       driver-class-name: com.mysql.jdbc.Driver
-      url: jdbc:mysql://localhost:3306/ssm_db?useSSL=false
+      url: jdbc:mysql://localhost:3306/ssm_db?useSSL=false&useUnicode=true&characterEncoding=utf8
       username: root
       password: 8520
+
+#配置Mp相关配置
+mybatis-plus:
+  global-config:
+    db-config:
+      table-prefix: tbl_
+      id-type: auto
+
+#端口配置
+server:
+  port: 8080
