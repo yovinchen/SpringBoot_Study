@@ -34,7 +34,7 @@
       <module name="springboot_06_mybatis_plus" target="17" />
       <module name="springboot_07_druid" target="17" />
       <module name="springboot_07_durid" target="17" />
-      <module name="springboot_08_ssmp" target="17" />
+      <module name="springboot_08_ssmp" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">

@@ -55,12 +55,17 @@ public class BookDaoTest {
 
     @Test
     void testGetPage() {
-        IPage page = new Page(2, 5);
+        IPage page = new Page(1, 5);
         bookDao.selectPage(page, null);
+        //当前页
         System.out.println(page.getCurrent());
+        //每页中数据数
         System.out.println(page.getSize());
+        //总数据
         System.out.println(page.getTotal());
+        //总页数
         System.out.println(page.getPages());
+        //数据
         System.out.println(page.getRecords());
     }
 
@@ -73,9 +78,21 @@ public class BookDaoTest {
 
     @Test
     void testGetBy2() {
-        String name = "1";
+        String name = "Spring";
         LambdaQueryWrapper<Book> lqw = new LambdaQueryWrapper<Book>();
-        //if(name != null) lqw.like(Book::getName,name);
+        //JDK17报错ew.sqlSegment != null，JDK1.8没有问题
+        if (name != null) lqw.like(Book::getName, name);
+        bookDao.selectList(lqw);
+    }
+
+    /**
+     * 以Test3为标准
+     */
+    @Test
+    void testGetBy3() {
+        String name = null;
+        LambdaQueryWrapper<Book> lqw = new LambdaQueryWrapper<Book>();
+        //JDK17报错ew.sqlSegment != null，JDK1.8没有问题
         lqw.like(name != null, Book::getName, name);
         bookDao.selectList(lqw);
     }
