@@ -1,5 +1,6 @@
 package com.yv.service;
 
+import com.baomidou.mybatisplus.core.metadata.IPage;
 import com.yv.admain.Book;
 
 import java.util.List;
@@ -38,4 +39,10 @@ public interface BookService {
      */
     List<Book> getAll();
 
+    /**
+     * @param currentPage
+     * @param pageSize
+     * @return
+     */
+    IPage<Book> getPage(int currentPage, int pageSize);
 }
