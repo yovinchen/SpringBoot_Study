@@ -8,7 +8,6 @@ import lombok.Data;
  *
  * lombok
  */
-
 @Data
 public class Book {
     private int id;
