@@ -11,8 +11,9 @@ public class Goods {
     private int id;
     private String goods_name;
     private String goods_img;
-    private String goods_price;
+    private int goods_price;
     private int goods_count;
-    private String goods_state;
+    private Boolean goods_state;
+
 }
 
